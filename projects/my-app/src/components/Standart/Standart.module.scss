@@ -1,0 +1,112 @@
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // width: 1920px;
+    // height: 800px;
+    margin-top: 750px;
+    background-color: #F6F6F8;
+}
+
+.content {
+    margin:5px;
+    padding: 60px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-left: 205px;
+    max-width:1000px;
+    border-bottom: 1px solid grey;
+   
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 405px;
+}
+
+.header {
+    justify-content: center;
+    width: 424px;
+    height: 88px;
+    top: 152px;
+    left:253px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+    -webkit-line-clamp: 2;
+    color: rgba(50,50,50,1);
+}
+
+.text {
+    justify-content: center;
+    margin-top:10px ;
+    width: 489px;
+    height: 117px;
+    left: 253px;
+    top: 294px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgba(153,153,153,1);
+}
+
+
+.more {
+    margin-top: 80px;
+
+} 
+
+.link {
+    
+    // margin-bottom: 427px;
+    font-family: 'Montserrat';
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration-line: underline;
+    color:rgba(73, 133, 255, 1);
+}
+
+.img {
+   margin-left: 121px;
+}
+
+
+// Проекты компании
+.container_2{
+    display: flex;
+    margin-top: 96px;
+    justify-content: center;
+   align-items: center;
+   flex-direction: row;
+
+  
+}
+  .function {
+     display: flex;
+     flex-direction: column;
+    margin:22px;
+  } 
+.header_2 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.text_2 {
+    
+   width: 222px;
+   height: 0px;
+   font-family: 'Montserrat';
+   -webkit-line-clamp: 3;
+   font-weight: normal;
+   color: grey;
+   font-size: 14px;
+   line-height: 22px;
+}

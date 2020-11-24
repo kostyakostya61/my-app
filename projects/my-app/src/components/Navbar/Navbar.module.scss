@@ -1,0 +1,118 @@
+  .image {
+      width: 1920px;
+      height: 900px;
+  }
+
+  .Navbar {
+      position: relative;
+  }
+
+  .Navigation {
+    min-width: 100%; 
+    min-height: 100%; 
+    position: relative;
+  }
+  .main {
+   position: absolute;
+   width: 67px;
+   height: 20px;
+   top:40px;
+   left: 952px;
+   font-family: 'Montserrat';
+   font-weight: 400;
+   color: #ffffff;
+   font-size: 16px;
+  }
+  .projects {
+    position: absolute;
+    width: 126px;
+    height: 20px;
+    top:40px;
+    left: 1059px;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 16px;
+   }
+   .service {
+    position: absolute;
+    width: 58px;
+    height: 20px;
+    top:40px;
+    left: 1225px;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 16px;
+   }
+   .news{
+    position: absolute;
+    width: 72px;
+    height: 20px;
+    top:40px;
+    left: 1323px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 16px;
+   }
+   .contacts {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    top:40px;
+    left: 1435px;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 16px;
+   }
+   
+   .hr {
+       position: absolute;
+       width: 1920px;
+       top: 100px;
+       background-color: #ffffff;
+   }
+
+   .industry {
+       position: absolute;
+       width: 175px;
+       height: 20px;
+       top: 319px;
+       left: 840px;
+       font-family:'Montserrat';
+       width:100%;
+        text-align:justify;
+       color: #ffffff;
+       font-size: 20px;
+       font-weight: 500;
+   }
+   .description {
+       position: absolute;
+       width: 829px;
+       height: 111px;
+       top: 359px;
+       left: 545px;
+       font-family: 'Montserrat';
+      
+       -webkit-line-clamp: 2;
+       
+       text-align:center;
+       font-weight: 800;
+       color: #ffffff;
+       font-size: 25px;
+   }
+   .button {
+       position: absolute;
+       width: 200px;
+       height: 45px;
+       top:  550px;
+       left:860px;
+       text-decoration: none;
+       border: none;
+       cursor: pointer;
+       border-radius: 30px;
+       background-color: #4985FF;
+       font-family: 'Montserrat';
+       font-size: 16px;
+       font-weight: 500;
+       text-align: center;
+       color: #ffffff;
+   }

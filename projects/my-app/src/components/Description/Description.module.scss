@@ -1,0 +1,100 @@
+ .container {
+    margin-top: 55px;
+    margin-bottom: -600px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     
+ }
+ .image {
+    width: 110px;
+    height: 110px;
+    
+ }
+
+ .company {
+    
+     justify-content: center;
+     padding-top: 55px;
+      width: 739px;
+      height: 88px;
+      top: 247px;
+      left: 590px;
+      font-family: 'Montserrat';
+      font-weight: 700;
+      font-size: 23px;
+      -webkit-line-clamp: 2;
+      text-align:center;
+ }
+ .info {
+    justify-content: center;
+     width: 730px;
+     height: 41px;
+     padding-top: 90px;
+     left: 595px;
+     font-family: 'Montserrat';
+     font-weight: 400;
+     font-size: 16px;
+     text-align: justify;
+     color: grey;
+ }
+ 
+
+ // Функции компании
+ .container_2{
+     display: flex;
+     margin-top: 116px;
+    align-items: center;
+    flex-direction: row;
+ }
+   .function {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+ .header {
+     font-family: 'Montserrat';
+     font-weight: 600;
+     font-size: 16px;
+ }
+
+ .text {
+     margin-right: 135px;
+    width: 222px;
+    height: 58px;
+    top: 33px;
+    left: 107px;
+    font-family: 'Montserrat';
+    -webkit-line-clamp: 3;
+    text-align:center;
+    font-weight: normal;
+    color: grey;
+    font-size: 14px;
+    line-height: 22px;
+ }
+
+ .container_3 {
+    display: flex;
+   align-items: center;
+   flex-direction: row;
+   margin-top: 97px;
+ }
+
+ .button {
+
+   
+    width: 200px;
+    height: 45px;
+    top:  700px;
+    left:860px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #4985FF;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+}
