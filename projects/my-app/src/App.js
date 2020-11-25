@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
 import Service from './components/Service/Service';
 import Standart from './components/Standart/Standart';
+import Work from './components/Work/Work';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Standart />
       <Service />
       <Projects />
+      <Work />
     </div>
   );
 }
