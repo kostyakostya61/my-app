@@ -1,0 +1,121 @@
+.container {
+    // width: 1920px;
+    height: 887px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(80,77,194);
+    background: linear-gradient(180deg, rgba(80,77,194,1) 50%, rgba(95,18,208,1) 50%, rgba(255,255,255,1) 50%); 
+}
+ 
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    margin:0px;
+    padding: 0px;
+    margin-top: 60px;
+
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button {
+    margin-left: 370px;
+    
+}
+.btn {
+    width: 200px;
+    height: 45px;
+    top:  700px;
+    left:860px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #4985FF;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.header {
+    font-family: 'Montserrat';
+    // -webkit-line-clamp: 3;
+    white-space: pre-wrap;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 27px;
+   
+    
+  
+}
+
+// Услуги компании 
+.work{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+    width: 1200px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 85px;
+
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 36px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    letter-spacing: 1px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.number {
+font-family: 'Montserrat';
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #4985FF;
+}
+
+
+.description {
+font-family: Montserrat;
+font-size: 16px;
+line-height: 25px;
+color: #999999;
+font-weight: 400;
+
+}
+
+.link {
+ margin-left: -250px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+text-decoration-line: underline;
+color: #4985FF;
+}
