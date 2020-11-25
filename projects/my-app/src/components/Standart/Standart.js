@@ -29,7 +29,7 @@ function Standart() {
           <img src={image} />
         </div>
       </div>
-      <div className={style.container_2}>
+      <div className={style.projects}>
         <img src={Vector} />
         <div className={style.function}>
           <h1 className={style.header_2}>125</h1>

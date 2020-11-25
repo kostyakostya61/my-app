@@ -10,23 +10,24 @@
 }
 
 .content {
-    margin:5px;
-    padding: 60px;
+    width: 1200px;
+    margin:0px;
+    padding: 0px;
     margin-top: 100px;
     display: flex;
     flex-direction: row;
    justify-content: center;
    align-items: center;
-   margin-left: 205px;
-    max-width:1000px;
-    border-bottom: 1px solid grey;
+   margin-left: 405px;
+    // max-width:1000px;
+    border-bottom: 1px solid #E0E0E0;
    
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    margin-left: 405px;
+    // margin-left: 405px;
 }
 
 .header {
@@ -79,10 +80,14 @@
 
 
 // Проекты компании
-.container_2{
+.projects{
     display: flex;
     margin-top: 96px;
-    justify-content: center;
+    width: 1516px;
+    margin:0px;
+    padding: 0px;
+    margin-left: 405px;
+    // justify-content: center;
    align-items: center;
    flex-direction: row;
 
@@ -91,7 +96,7 @@
   .function {
      display: flex;
      flex-direction: column;
-    margin:22px;
+    margin:11px;
   } 
 .header_2 {
     font-family: 'Montserrat';
