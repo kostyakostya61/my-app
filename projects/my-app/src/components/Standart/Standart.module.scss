@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // width: 1920px;
+    align-items: center;
     height: 800px;
     margin-top: 750px;
     background-color: #F6F6F8;
@@ -11,34 +11,37 @@
 
 .content {
     width: 1200px;
-    margin:0px;
-    padding: 0px;
     margin-top: 100px;
     display: flex;
     flex-direction: row;
    justify-content: center;
    align-items: center;
-   margin-left: 405px;
-    // max-width:1000px;
     border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 42.5px;
    
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    // margin-left: 405px;
+    align-items: center;
+    h2{
+        text-align: left;
+    }
+    p{
+        text-align: left;
+    }
 }
 
 .header {
     justify-content: center;
     width: 424px;
     height: 88px;
-    top: 152px;
-    left:253px;
+    // top: 152px;
+    // left:253px;
     font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
     -webkit-line-clamp: 2;
     color: rgba(50,50,50,1);
 }
@@ -65,7 +68,7 @@
 
 .link {
     
-    // margin-bottom: 427px;
+    
     font-family: 'Montserrat';
     line-height: 20px;
     font-size: 16px;
@@ -79,39 +82,76 @@
 }
 
 
-// Проекты компании
-.projects{
+.projects {
     display: flex;
-    margin-top: 96px;
-    width: 1516px;
-    margin:0px;
-    padding: 0px;
-    margin-left: 405px;
-    // justify-content: center;
-   align-items: center;
-   flex-direction: row;
+    flex-direction: row;
+    
+}
+
+.example {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 30px;
+        height: 26.47px;
+    }
+    p{
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(153, 153, 153, 1);
+    }
+    
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    h3 {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 36px;
+        padding-left: 20px;
+    }
+}
+
+
+// Проекты компании
+// .projects{
+//     display: flex;
+//     margin-top: 96px;
+//     width: 1516px;
+//     margin:0px;
+//     padding: 0px;
+//     margin-left: 405px;
+//     // justify-content: center;
+//    align-items: center;
+//    flex-direction: row;
 
   
-}
-  .function {
-     display: flex;
-     flex-direction: column;
-    margin:11px;
-  } 
-.header_2 {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 35px;
-}
+// }
+//   .function {
+//      display: flex;
+//      flex-direction: column;
+//     margin:11px;
+//   } 
+// .header_2 {
+//     font-family: 'Montserrat';
+//     font-weight: 400;
+//     font-size: 35px;
+// }
 
-.text_2 {
+// .text_2 {
     
-   width: 222px;
-   height: 0px;
-   font-family: 'Montserrat';
-   -webkit-line-clamp: 3;
-   font-weight: normal;
-   color: grey;
-   font-size: 14px;
-   line-height: 22px;
-}
+//    width: 222px;
+//    height: 0px;
+//    font-family: 'Montserrat';
+//    -webkit-line-clamp: 3;
+//    font-weight: normal;
+//    color: grey;
+//    font-size: 14px;
+//    line-height: 22px;
+// }

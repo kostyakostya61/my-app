@@ -30,30 +30,50 @@ function Standart() {
         </div>
       </div>
       <div className={style.projects}>
-        <img src={Vector} />
-        <div className={style.function}>
-          <h1 className={style.header_2}>125</h1>
-          <p className={style.text_2}>Our project</p>
+        <div className={style.example}>
+          <div className={style.number}>
+            <img src={Vector} />
+            <h3>125</h3>
+          </div>
+          <div>
+            <p>Our projects</p>
+          </div>
         </div>
-        <img src={Vector} />
-        <div className={style.function}>
-          <h1 className={style.header_2}>125</h1>
-          <p className={style.text_2}>Our project</p>
+        <div className={style.example}>
+          <div className={style.number}>
+            <img src={Vector} />
+            <h3>125</h3>
+          </div>
+          <div>
+            <p>Our projects</p>
+          </div>
         </div>
-        <img src={Vector} />
-        <div className={style.function}>
-          <h1 className={style.header_2}>125</h1>
-          <p className={style.text_2}>Our project</p>
+        <div className={style.example}>
+          <div className={style.number}>
+            <img src={Vector} />
+            <h3>125</h3>
+          </div>
+          <div>
+            <p>Our projects</p>
+          </div>
         </div>
-        <img src={Vector} />
-        <div className={style.function}>
-          <h1 className={style.header_2}>125</h1>
-          <p className={style.text_2}>Our project</p>
+        <div className={style.example}>
+          <div className={style.number}>
+            <img src={Vector} />
+            <h3>125</h3>
+          </div>
+          <div>
+            <p>Our projects</p>
+          </div>
         </div>
-        <img src={Vector} />
-        <div className={style.function}>
-          <h1 className={style.header_2}>125</h1>
-          <p className={style.text_2}>Our project</p>
+        <div className={style.example}>
+          <div className={style.number}>
+            <img src={Vector} />
+            <h3>125</h3>
+          </div>
+          <div>
+            <p>Our projects</p>
+          </div>
         </div>
       </div>
     </div>
@@ -61,3 +81,32 @@ function Standart() {
 }
 
 export default Standart;
+{
+  /* <div className={style.projects}>
+        <img src={Vector} />
+        <div className={style.function}>
+          <h1 className={style.header_2}>125</h1>
+          <p className={style.text_2}>Our project</p>
+        </div>
+        <img src={Vector} />
+        <div className={style.function}>
+          <h1 className={style.header_2}>125</h1>
+          <p className={style.text_2}>Our project</p>
+        </div>
+        <img src={Vector} />
+        <div className={style.function}>
+          <h1 className={style.header_2}>125</h1>
+          <p className={style.text_2}>Our project</p>
+        </div>
+        <img src={Vector} />
+        <div className={style.function}>
+          <h1 className={style.header_2}>125</h1>
+          <p className={style.text_2}>Our project</p>
+        </div>
+        <img src={Vector} />
+        <div className={style.function}>
+          <h1 className={style.header_2}>125</h1>
+          <p className={style.text_2}>Our project</p>
+        </div>
+      </div> */
+}

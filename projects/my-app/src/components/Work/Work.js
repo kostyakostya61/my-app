@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Work.module.scss';
 import logo from './logo.png';
 import Subscribe from './Subscribe/Subscribe';
+import Button from './Button.png';
 
 function Work() {
   return (
@@ -16,19 +17,21 @@ function Work() {
 
         <div className={style.video}>
           <div className={style.player}>
-            <img src={logo} />
-            <div className={style.frame}>
-              <p>Смотреть видео</p>
+            <div className={style.btn}>
+              <button>
+                <div className={style.button_style}>
+                  <img src={Button} />
+                  <p>Смотреть видео</p>
+                </div>
+              </button>
             </div>
-            <button className={style.btn}>
-                <div className={style.triangle}></div>
-            </button>
+
+            <img src={logo} />
           </div>
         </div>
         <Subscribe />
       </div>
     </div>
-
   );
 }
 

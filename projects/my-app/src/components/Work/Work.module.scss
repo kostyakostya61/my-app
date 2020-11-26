@@ -24,14 +24,20 @@
     text-align: center;
 }
 .head {
-    font-family: 'Montserrat';
+
+    p{
+         font-family: 'Montserrat';
     font-weight: 400;
     font-size: 16px;
-    letter-spacing: 1px;
-    align-items: center;
-    color:#ffffff;
+      color:#ffffff;
     text-align: center;
     line-height: 25px;
+    letter-spacing: 1px;
+    }
+   
+    
+    align-items: center;
+  
 }
 
 .video {
@@ -39,7 +45,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 70px;
-    
+    padding-bottom: 42.5px;
     border-bottom: 1px solid #E0E0E0;
 }
 .player {
@@ -50,55 +56,46 @@
     flex-direction: column;
 }
 
-.frame {
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 100px;
-    border: 1px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 200px;
-
-
-    p{
-        position: absolute;
-        font-family: 'Montserrat';
-        font-weight: 500;
-        font-size: 16px;
-        align-items: center;
-        color:#ffffff;
-        text-align: center;
-        right: 29px;
-        top: 23px;
-        height: 19px;
-        width: 150px;
-
-
-    }
-}
 
 
 
 .btn {
-    left: 375px;
-    position: absolute;
-    background: #FFFFFF;
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
+
+    
+            position: absolute;
+    p{
+        
+                font-family: 'Montserrat';
+                font-weight: 500;
+                font-size: 14px;
+                align-items: center;
+                color:#ffffff;
+                text-align: center;
+                padding-left: 70px;
+                height: 19px;
+                width: 150px;
+    }
+    
+    button{
+    background: none;
+    border-radius: 200px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid #ffffff;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    padding: 12px 24px;
     cursor: pointer;
-      
-
-    .triangle {
-        margin-left: 16px;
-    border-radius: 5px;
-    border: 20px solid transparent; 
-    border-left: 20px solid #4985FF;
     }
-}
+
+
+
+  }
+
+  .button_style {
+      display: flex;
+      align-items: center;
+  }
+
