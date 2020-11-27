@@ -9,7 +9,7 @@ import Work from './components/Work/Work';
 
 function App() {
   return (
-    <div>
+    <div  >
       <Navbar />
       <Description />
       <Standart />

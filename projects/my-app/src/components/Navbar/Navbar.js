@@ -15,7 +15,7 @@ function Navbar() {
             <a href="#contact">Контакты</a>
           </div>
         </div>
-
+          
         <div className={style.header}>
           <p>Передовая IT студия</p>
         </div>
