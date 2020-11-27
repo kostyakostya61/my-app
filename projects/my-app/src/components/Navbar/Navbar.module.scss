@@ -9,7 +9,7 @@ a {
     color: #ddcccc;
   }
 
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     font-size: 22px;
   }
 }
@@ -17,16 +17,14 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 900px;
+  width: 100%;
   background: url(../Navbar/images/logo.jpg) no-repeat top center;
 
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 861px;
-    height: 900px;
   }
 }
 
@@ -35,14 +33,14 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  //   width: 100%;
-  @media (max-width: 1003px) {
+  width: 100%;
+  max-width: 1110px;
+  margin-bottom: 335px;
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 861px;
-    height: 900px;
   }
 }
 
@@ -50,15 +48,14 @@ a {
 .topnav {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
   overflow: hidden;
   border-bottom: 1px solid #a1a1a1;
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -150px;
+    // margin-top: -150px;
   }
 }
 .topnav a {
@@ -88,7 +85,7 @@ a {
       color: #ddcccc;
     }
   }
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     float: left;
     display: flex;
     align-items: center;
@@ -105,7 +102,7 @@ a {
     line-height: 20px;
     color: #ffffff;
   }
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,7 +115,7 @@ a {
 
 .description {
   margin-top: 20px;
-  width: 800px;
+  // width: 800px;
   h1 {
     font-weight: 800;
     font-family: 'Montserrat';
@@ -127,7 +124,7 @@ a {
     color: #ffffff;
     text-align: center;
   }
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,8 +139,7 @@ a {
   button {
     width: 200px;
     height: 45px;
-    top: 550px;
-    left: 860px;
+    
     text-decoration: none;
     border: none;
     cursor: pointer;
@@ -159,7 +155,7 @@ a {
   button:hover {
     background-color: #094ace;
   }
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;

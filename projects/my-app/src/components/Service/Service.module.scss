@@ -1,6 +1,5 @@
 .container {
-  // width: 1920px;
-  height: 887px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,13 +10,11 @@
     rgba(95, 18, 208, 1) 50%,
     rgba(255, 255, 255, 1) 50%
   );
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 861px;
-    height: 2100px;
   }
 }
 
@@ -25,17 +22,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1200px;
+  width: 100%;
+  max-width: 1110px;
   margin: 0px;
   padding: 0px;
   margin-top: 60px;
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 740px;
-    height: 2100px;
   }
 }
 .info {
@@ -47,7 +43,11 @@
 
 .button {
   margin-left: 370px;
-  @media (max-width: 1003px) {
+  button {
+    width: 200px;
+    height: 45px;
+  }
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,10 +56,6 @@
   }
 }
 .btn {
-  width: 200px;
-  height: 45px;
-  top: 700px;
-  left: 860px;
   text-decoration: none;
   border: none;
   cursor: pointer;
@@ -88,10 +84,10 @@
   align-items: center;
   justify-content: center;
   margin-top: -30px;
-  width: 1200px;
+
   border-bottom: 1px solid #e0e0e0;
   padding-bottom: 45px;
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,7 +114,7 @@
   a:hover {
     color: #2058c7;
   }
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -134,7 +130,7 @@
   font-family: 'Montserrat';
   font-weight: 600;
   font-size: 18px;
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -165,14 +161,14 @@
     font-size: 16px;
   }
 
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-right: 359px;
-    padding-left: 359px;    
+    padding-right: 190px;
+    padding-left: 190px;
     p {
       font-size: 22px;
     }
@@ -181,7 +177,7 @@
 
 .link {
   margin-left: -250px;
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: row;
     align-items: center;

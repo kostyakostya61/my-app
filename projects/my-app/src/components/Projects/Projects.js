@@ -35,7 +35,7 @@ function Projects() {
         </div>
 
         <div className={style.button}>
-          <button className={style.btn}>Все проекты</button>
+          <button>Все проекты</button>
         </div>
       </div>
     </div>

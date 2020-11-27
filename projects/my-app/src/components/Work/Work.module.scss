@@ -2,15 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 1140px;
+  width: 100%;
   background: #ffffff url(../Work/images/logo.png) no-repeat top center;
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 861px;
-    height: 1200px;
+    
   }
 }
 
@@ -19,15 +18,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1200px;
+  width: 100%;
+  max-width: 1110px;
   margin-top: 70px;
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 861px;
-    height: 900px;
   }
 }
 
@@ -52,14 +50,14 @@
 
   align-items: center;
 
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-       P{
-           font-size: 22px;
-       }
+    P {
+      font-size: 22px;
+    }
   }
 }
 
@@ -107,15 +105,14 @@
     cursor: pointer;
   }
 
-
-  @media (max-width: 1003px) {
+  @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-       P{
-           font-size: 18px;
-       }
+    P {
+      font-size: 18px;
+    }
   }
 }
 

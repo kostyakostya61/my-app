@@ -6,10 +6,11 @@ import Projects from './components/Projects/Projects';
 import Service from './components/Service/Service';
 import Standart from './components/Standart/Standart';
 import Work from './components/Work/Work';
+import style from './App.module.scss'
 
 function App() {
   return (
-    <div  >
+    <div className={style.app} >
       <Navbar />
       <Description />
       <Standart />

@@ -11,12 +11,8 @@ function Subscribe() {
         <div className={style.head}>
           <p>Полезные статьи, акции, новости - получите все это сейчас!</p>
         </div>
-        <div className>
-          <input
-            placeholder={'Ваш email'}
-            className={style.input}
-            type={'search'}
-          />
+        <div className={style.input}>
+          <input placeholder={'Ваш email'} type={'search'} />
           <button className={style.button}>Подписаться</button>
         </div>
 
