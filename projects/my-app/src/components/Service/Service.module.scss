@@ -27,6 +27,8 @@
   margin: 0px;
   padding: 0px;
   margin-top: 60px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 45px;
   @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
@@ -45,7 +47,6 @@
     align-items: center;
     justify-content: center;
   }
-
 }
 
 .button {
@@ -82,6 +83,13 @@
   font-weight: bold;
   color: #ffffff;
   font-size: 27px;
+  @media (max-width: 1040px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
 }
 
 // Услуги компании
@@ -92,8 +100,7 @@
   justify-content: center;
   margin-top: -30px;
 
-  border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 45px;
+  
   @media (max-width: 1040px) {
     display: flex;
     flex-direction: column;
@@ -144,6 +151,7 @@
     justify-content: center;
     text-align: center;
     h3 {
+      letter-spacing: -1px;
       font-size: 25px;
     }
   }
@@ -190,6 +198,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-left: 0px;
     a {
       font-size: 25px;
     }
